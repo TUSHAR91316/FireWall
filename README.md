@@ -12,12 +12,19 @@ This project is a high-performance, software-defined dynamic firewall system usi
 
 sdn-dynamic-firewall/
 ├── controller/ # Ryu/POX SDN controller logic
+
 ├── firewall_engine/ # C++ firewall logic with  communication handlers
+
 ├── topology/ # Mininet topology and setup scripts
+
 ├── test/ # Traffic generation and attack simulations
+
 ├── gui/ # (Optional) Flask dashboard for real-time monitoring
+
 ├── benchmarks/ # Performance tests (latency, memory)
+
 ├── logs/ # Log files (flows, blocked IPs)
+
 ├── docs/ # Report, diagrams, presentation
 
 ---
